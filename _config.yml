@@ -7,7 +7,7 @@ remote_theme: ucsb-cs-course-repos/course-repo-jekyll-theme
 url: https://ucsb-cs24.github.io 
 baseurl: "/w21"  
 
-name: "CS24 Spring 2020"
+name: "CS24 Winter 2021"
 course: "CS24"
 course_title: "Problem Solving with Computers II"
 title: "UCSB CS24 W21"
@@ -32,7 +32,6 @@ start_date: 2021-01-03
 num_weeks: 10
 extra_exam_week: true
 
-instructor_url: https://ucsb-cs24.github.io/instructor
 
 cal_dates: >
   [

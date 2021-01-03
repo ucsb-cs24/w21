@@ -14,7 +14,7 @@ title: "CS 24: Problem Solving with Computers-II , Winter 21, Kozerawski"
 </div>
 
 
-{% include collapse-button.html label="Lecture Notes and Slides" id="lectures" %}
+{% include collapse-button.html label="Lectures" id="lectures" %}
 <div class="collapse" id="lectures">
  <div class="card card-body" markdown="1">
    {%include lecnot_table.html %}
