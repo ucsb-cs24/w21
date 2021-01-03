@@ -61,18 +61,10 @@ Each student is responsible for knowing and abiding by UCSB's policies on Academ
 ## Other important policies<a name="general"></a>
 
 * If you are registered for another UCSB course  that overlaps with this one, you MUST HAVE specific written permission from both instructors, or I am within my rights to give you a failing grade on any work you miss as a result, and will NOT make any accommodations for you.  This includes exams.
-<!--* You are permitted one sheet of notes on exams—details later on the syllabus.-->
 * Collaboration is only permitted when specifically allowed for—otherwise, you must do your own work.
 * On most homework assignments  you may collaborate with at most one other person (who must be named)
 * This course moves quickly. So attendance is very important. We'll sometimes cover two or even three chapters in a given week. We need to go at that pace,  because during the last week of the quarter,  you can't really start anything new, because there isn't time to put it into practice with programming assignments. If you don't put it into practice, you aren't very likely to learn it in any way that is going to stick with you, so there isn't much point in just &quot;going through the motions&quot;. </p>
 
-
-You may NOT:
-
-* turn in homework on a day other than when it is due
-* have someone else turn in your homework for you (that will be considered academic dishonesty).
-* leave homework in a mailbox or slide it under a door
-* drop it off with the instructor to be graded later (unless it is specified in the homework)
 
 
 ## Exceptions
