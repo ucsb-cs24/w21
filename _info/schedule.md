@@ -17,13 +17,14 @@ layout: default
 # TAs:
 
 ## Bowen Zhang
-## Jingxuan Cao
-## Abhishek Badki
+## Lijuan Cheng
+## Zeyu Deng
 
 
 # ULAs: 
 
 ## Connor Rapelje
+## Adarsha Poudel
 ## Paul Kuang
 
 
