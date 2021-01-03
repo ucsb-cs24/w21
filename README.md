@@ -1,4 +1,4 @@
-# ucsb-cs24/s20	
+# ucsb-cs24/w21
 
 Jekyll-based website for UCSB CS24 Winter 2021, for shared course materials.
 

@@ -1,8 +1,8 @@
 ---
-title: "CS 24: Problem Solving with Computers-II , Spring 20, Mirza"
+title: "CS 24: Problem Solving with Computers-II , Winter 21, Kozerawski"
 ---
 
-# CS 24: Problem Solving with Computers-II, S20, Mirza
+# CS 24: Problem Solving with Computers-II, W21, Kozerawski
 
 <!--{{site.course}}, {{site.quarter}}-->
 
