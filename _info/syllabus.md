@@ -31,12 +31,9 @@ You must contact the instructor for clarification if you receive information fro
 
 ## Evaluation components
 
-* Homeworks: 10%
-* Lab Assignments: 15%
-* Programming Assignments: 20%
-* Participation: 2% (clickers),  (will replace with your average exam scores, whichever is higher)
-* Quizzes/Exams: 23%
-* Final Examination: 30%
+* Lab Assignments: 30%
+* Midterm: 30%
+* Final Examination: 40%
 
 
 ## Grade assignment policy
@@ -81,8 +78,8 @@ You must contact the instructor for clarification if you receive information fro
 
 </table>
 
-<strong>Curving: </strong>The grade  scale above represents the <em>minimum</em> letter grade you will be assigned&#8212;at the instructor's discretion, the grading scale  may be altered <em>in the students' favor</em> if this will be better reflect the students' mastery of the material. Thus, <em>if</em> there is a &quot;curve&quot;, it will be applied at the <em>end</em>, not to individual assignments.</p>
-<p><strong>A+ grades: </strong>These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)
+<strong>Curving: </strong>The grade  scale above represents the <em>minimum</em> letter grade you will be assigned&#8212;at the instructor's discretion, the grading scale  may be altered <em>in the students' favor</em> if this will be better reflect the students' mastery of the material. Thus, <em>if</em> there is a &quot;curve&quot;, it will be applied at the <em>end</em>, not to individual assignments.
+<strong>A+ grades: </strong>These may be awarded to the very best performing students in the class—but the cutoff for A+ grades will be determined at the end of the course at the discretion of the instructor (there is no pre-determined cutoff---an average of 97 or more doesn't guarantee you an A+ grade.)
 
 
 
