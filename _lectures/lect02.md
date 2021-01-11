@@ -5,6 +5,9 @@ desc: "Introduction to pointers. Pass-by-value, pass-by-reference"
 ready: true
 annotatedready: false
 ---
+## Relevant topics in the textbook:
+Data Structures and Other Objects Using C++ Chapter 4.1
+
 # Memory Addresses
 
 * We can find out what the memory address of variables stored in memory using the ‘&’ symbol.
