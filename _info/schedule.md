@@ -20,9 +20,11 @@ layout: default
 ## Bowen Zhang
 * F 10:00-10:45 AM
 * W 1:00-1:45 PM
+
 ## Lijuan Cheng
 * T 10:00-10:45 AM
 * R 1:00-1:45 PM
+
 ## Zeyu Deng
 * M 11:00-11:45 AM
 * F 11:00-11:45 AM
@@ -33,9 +35,11 @@ layout: default
 ## Connor Rapelje
 * T 4:00-4:45 PM
 * W 4:00-4:45 PM
+
 ## Adarsha Poudel
 * T 3:00-3:45 PM
 * R 4:00-4:45 PM
+
 ## Paul Kuang
 * TBA
 
