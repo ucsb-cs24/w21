@@ -121,8 +121,7 @@ I am ready for CS24!
 
 For this lab and all subsequent programming assignments, you should start by creating a repo in the ucsb-cs24-kozerawski-w21 organization following these steps
 
-* Navigate to your dashboard on [www.github.com](www.github.com). From the left drop down menu, select the class organization as shown in the figure below:
-![select-org](select-org.png){:height="500px"}
+* Navigate to your dashboard on [www.github.com](www.github.com). From the left drop down menu, select the class organization
 
 * Click on the green "New repository" button to create a new repository.
 
@@ -132,7 +131,6 @@ For this lab and all subsequent programming assignments, you should start by cre
 
 * Add the C++ .ignore option from the frop down menu and click on "Create repository". See screenshot below.
 
-![new-repo](enter-org/pic5.png){:height="500px"}
 
 
 ## Upload your code using github's web interface 
@@ -149,7 +147,6 @@ It's time to submit your program to gradescope. Go to [www.gradescope.com](www.g
 
 You will be given the option of directly uploading files from your local machine or submitting the code that is in a github repo. We recommend that you choose the latter option as shown in the figure below. This will ensure that our staff sees the version of code on github that you submitted to gradescope.
 
-![submit](enter-org/gradescope-submission.png){:height="500px"}
 
 You should receive 50 points on this part of the assignment.
 
