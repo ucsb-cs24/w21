@@ -145,7 +145,7 @@ For this lab and all subsequent programming assignments, you should start by cre
 
 It's time to submit your program to gradescope. Go to [www.gradescope.com](www.gradescope.com). Log into your account and navigate to our course site.Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission.
 
-You will be given the option of directly uploading files from your local machine or submitting the code that is in a github repo. We recommend that you choose the latter option as shown in the figure below. This will ensure that our staff sees the version of code on github that you submitted to gradescope.
+You will be given the option of submitting the code that is in a github repo. This will ensure that our staff sees the version of code on github that you submitted to gradescope.
 
 
 You should receive 50 points on this part of the assignment.
