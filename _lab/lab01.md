@@ -63,35 +63,35 @@ The functionalities of these variables can be easily read from their names. The 
 The descriptions of the functionalities of the public methods are listed below:
 
 * Car()
-	Default constructor. Initialize the pointer type variables with ‘NULL’ and the numerical variables with ‘0’. ‘DoorKind’ variable is also initialized with ‘None’.
+	* Default constructor. Initialize the pointer type variables with ‘NULL’ and the numerical variables with ‘0’. ‘DoorKind’ variable is also initialized with ‘None’.
 * Car(char const* const manufacturerName, char const* const modelName, PerformanceStats perf, uint8_t numSeats, DoorKind backseatDoorDesign)
-	Constructor. Initialize the member variables with specific values.
+	* Constructor. Initialize the member variables with specific values.
 * Car(Car const& o)
-	Copy constructor. Initialize the member variables with the values in ‘o’.
+	* Copy constructor. Initialize the member variables with the values in ‘o’.
 * ~Car()
-	Destructor. Recycle the memory of variables.
+	* Destructor. Recycle the memory of variables.
 * Car& operator=(Car const& o)
-	Overloaded assignment operator ‘=’. Set the values of the variables in the current object to be those in ‘o’.
+	* Overloaded assignment operator ‘=’. Set the values of the variables in the current object to be those in ‘o’.
 * char const* getManufacturer() const
-	Get the string of ‘manufacturer’.
+	* Get the string of ‘manufacturer’.
 * char const* getModel() const
-	Get the string of ‘model’.
+	* Get the string of ‘model’.
 * PerformanceStats getStats() const
-	‘PerformanceStats’ is a structure given to you in the head file ‘perf.hpp’. It summarizes the three parameters ‘horsepower’, ‘zeroToSixtyNs’, and ‘headonDragCoeff’ together. This method gets their values and returns as the structure.
+	* ‘PerformanceStats’ is a structure given to you in the head file ‘perf.hpp’. It summarizes the three parameters ‘horsepower’, ‘zeroToSixtyNs’, and ‘headonDragCoeff’ together. This method gets their values and returns as the structure.
 * uint8_t getSeatCount() const
-	Get the number of seats in ‘seatCount’.
+	* Get the number of seats in ‘seatCount’.
 * DoorKind getBackseatDoors() const
-	Get the type of the doors in ‘backseatDoors’.
+	* Get the type of the doors in ‘backseatDoors’.
 * void manufacturerChange(char const* const newManufacturer)
-	Change the name (string) in ‘manufacturer’ to the new in ‘newManufacturer’. Since the name is of the type string in the memory, please care about the memory management and avoid the memory leak.
+	* Change the name (string) in ‘manufacturer’ to the new in ‘newManufacturer’. Since the name is of the type string in the memory, please care about the memory management and avoid the memory leak.
 * void modelNameChange(char const* const newModelName)
-	Change the name (also string) in ‘model’ to the new in ‘newModelName’.
+	* Change the name (also string) in ‘model’ to the new in ‘newModelName’.
 * void reevaluateStats(PerformanceStats newStats)
-	Update the values of ‘zeroToSixtyNs’, ‘headonDragCoeff’ and ‘horsepower’ by using the new parameters in ‘newStats’.
+	* Update the values of ‘zeroToSixtyNs’, ‘headonDragCoeff’ and ‘horsepower’ by using the new parameters in ‘newStats’.
 * void recountSeats(uint8_t newSeatCount)
-	Set the value of ‘seatCount’ to be ‘newSeatCount’.
+	* Set the value of ‘seatCount’ to be ‘newSeatCount’.
 * void reexamineDoors(DoorKind newDoorKind)
-	Set the kind of the doors in ‘backseatDoors’ to be ‘newDoorKind’.
+	* Set the kind of the doors in ‘backseatDoors’ to be ‘newDoorKind’.
 
 
 ## Step 3: Test Your Code and Upload to Gradescope
