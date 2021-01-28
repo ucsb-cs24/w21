@@ -43,7 +43,7 @@ Trie is a data structure that is used to save a word list efficiently. Its intro
 
 In this lab, you will implement the Trie structure and some algorithms to manipulate it. The declaration of Trie structure is in the head file ‘trie.hpp’. The default constructor, copy constructor, destructor, overloaded ‘=’ operator, the functions used to insert a word, to check if a word is in the Trie, to get one word with a given prefix, are to be implemented in the file ‘trie.cpp’. There also include two functions loading a Trie from in-stream and a file. The details of these functions can be found in the given ‘trie.cpp’ file. 
 
-In these implementations, neither the length of the word nor the length of the input string is specified. That means recursion is necessary. **So as a hint, most of the functions are recursive.** After you’ve designed the functions in ‘trie.cpp’, which should be submitted on Gradescope, you should write a test file to check if they are correct.
+In these implementations, neither the length of the word nor the length of the input string is specified. That means recursion could be used for the trie structure. **So as a hint, most of the functions are recursive.** After you’ve designed the functions in ‘trie.cpp’, which should be submitted on Gradescope, you should write a test file to check if they are correct.
 
 * Trie()
 	* The default constructor that initializes the ‘roots’ array to be all NULL pointers.
