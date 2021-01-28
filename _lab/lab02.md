@@ -14,6 +14,7 @@ By the end of this lab, given a description of a class containing data members a
 * Implement some class methods using recursion
 
 For this lab, you will only need to upload your **trie.cpp** to Gradescope, so please do not modify any other files. 
+
 #Step by Step
 
 ## Step 0: Getting Started
