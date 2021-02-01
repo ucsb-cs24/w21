@@ -22,6 +22,7 @@ Data Structures and Other Objects Using C++ Chapter 2.1, 2.2, 2.5
     * Class members are set to <b>private</b> by default.
 
 ## Example - definition of a class representing a Person
+
 ```
 # Makefile
 
@@ -34,6 +35,7 @@ main: ${DEPENDENCIES}
 clean:
 	rm -f *.o main
 ```
+
 ```
 // Person.h
 #ifndef PERSON_H
@@ -99,6 +101,7 @@ void Person::setName(string name) { this->name = name; }
 
 void Person::setAge(int age) { this->age = age; }
 ```
+
 ```
 // main.cpp
 
@@ -155,6 +158,7 @@ Person t = s;
 still works. If the copy constructor is defined, then the assignment operator `=` will call the defined copy constructor. If the copy constructor is not defined, the default copy constructor is used.
 
 ### Shallow Copy illustration
+
 ```
 // modify class Person.h definition with vector v
 #include <vector>
@@ -164,6 +168,7 @@ public:
 private:
 	std::vector<int>* v;
 ```
+
 ```
 // modify constructor in Person.cpp to initialize vector and push 100 into it
 Person::Person() {
@@ -218,6 +223,7 @@ Person::Person(Person& person) {
 public:
 	Person& operator=(const Person& rhs);
 ```
+
 ```
 // Person.cpp
 Person& Person::operator=(const Person& rhs) {
@@ -267,6 +273,7 @@ int main() {
 public:
 	~Person(); 	// destructor
 ```
+
 ```
 // Person.cpp
 Person::~Person() {

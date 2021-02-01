@@ -13,6 +13,7 @@ Data Structures and Other Objects Using C++ Chapter 6.1
 * Code examples
 
 * Comparison of different types:
+
 ```
 #include <iostream>
 
@@ -36,6 +37,7 @@ int main() {
 ```
 
 * Using arrays and helper functions:
+
 ```
 #include <iostream>
 

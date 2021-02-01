@@ -12,6 +12,7 @@ Data Structures and Other Objects Using C++ Chapter 2.5
 
 * Code examples
 Account.h
+
 ```
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
@@ -40,6 +41,7 @@ class Account {
 ```
 
 Account.cpp
+
 ```
 #include <iostream>
 #include <string>
@@ -105,6 +107,7 @@ Account::~Account() {
 ```
 
 main.cpp
+
 ```
 #include <iostream>
 #include "Account.h"
@@ -132,7 +135,9 @@ public:
 	friend std::ostream &operator<<(std::ostream &output, const Account& account);
 	friend std::istream &operator>>(std::istream &input, Account& account);
 ```
+
 main.cpp
+
 ```
 #include <iostream>
 #include "Account.h"
