@@ -32,19 +32,19 @@ We will be using github.com in this course.   We have created an organization ca
 
 To join this organization, you need to do three things.
 
-1. If you don't already have a github.com account, create one on the "free" plan. Visit [www.github.com](www.github.com)
+1. If you don't already have a github.com account, create one on the "free" plan. Visit [www.github.com](https://www.github.com)
 
 2. If you don't already have your @umail.ucsb.edu email address associated with your github.com account. go to "settings", add that email, and confirm that email address.
 
 3. Visit our [Github Sign Up Tool: https://ucsb-cs-github-linker.herokuapp.com/](https://ucsb-cs-github-linker.herokuapp.com/), login with your github.com account, click "Home", find this course (CMPSC 24 W21), and click the "join course button".   That will automatically send you an invitation to join the course organization on github. 
 
-4. Accept the invitation that appears in your browser (from step 3) or log into your account on [www.github.com](www.github.com) to accept the invitation.
+4. Accept the invitation that appears in your browser (from step 3) or log into your account on [www.github.com](https://www.github.com) to accept the invitation.
 
 ## Get setup with gradescope
 
 We will use gradescope to grade all your homeworks, exams and lab/programming assignments. You should have received an email notification with instructions about logging into gradescope.
 
-Log into our class site on[www.gradescope.com](www.gradescope.com): {{site.name}}    and navigate to the lab00 assignment
+Log into our class site on [www.gradescope.com](https://www.gradescope.com): {{site.name}}    and navigate to the lab00 assignment
 
 # Implement and submit a simple C++ program 
 
@@ -121,7 +121,7 @@ I am ready for CS24!
 
 For this lab and all subsequent programming assignments, you should start by creating a repo in the ucsb-cs24-kozerawski-w21 organization following these steps
 
-* Navigate to your dashboard on [www.github.com](www.github.com). From the left drop down menu, select the class organization
+* Navigate to your dashboard on [www.github.com](https://www.github.com). From the left drop down menu, select the class organization
 
 * Click on the green "New repository" button to create a new repository.
 
@@ -143,7 +143,7 @@ For this lab and all subsequent programming assignments, you should start by cre
 
 ## Submit your program for grading to gradescope
 
-It's time to submit your program to gradescope. Go to [www.gradescope.com](www.gradescope.com). Log into your account and navigate to our course site.Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission.
+It's time to submit your program to gradescope. Go to [www.gradescope.com](https://www.gradescope.com). Log into your account and navigate to our course site.Select this assignment. Then click on the "Submit" button on the bottom right corner to make a submission.
 
 You will be given the option of submitting the code that is in a github repo. This will ensure that our staff sees the version of code on github that you submitted to gradescope.
 
