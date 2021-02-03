@@ -105,7 +105,7 @@ void deleteIndex(LinkedList* list, int index) {
 	delete curr;
 
 	// re-assign list->tail if curr was the last node.
-	if (index == length(list) - 1)
+	if (index == length(list))
 		list->tail = prev;
 
 	return;
@@ -169,7 +169,9 @@ $ g++ -o main main.cpp LinkedList.cpp
 
 ```
 int factorial (int n) {
-	//code
+	if (n==0) return 1;
+	
+	return n*factorial(n-1);
 }
 ---
 int main() {
@@ -199,7 +201,9 @@ factorial(4) = 4 * factorial(3)
 
 ```
 int fibonacci(int n) {
-	// code
+	if (n==1) return 1;
+	if (n==0) return 0;
+	return fibonacci(n-1) + fibonacci(n-2);
 }
 -----
 int main() {
