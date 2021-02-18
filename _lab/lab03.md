@@ -33,7 +33,7 @@ Once you and your partner are in agreement, choose an initial driver and navigat
 ## Step 1: Copying some programs from my directory
 Visit the following web link—you may want to use “right-click” (or “control-click” on Mac) to bring up a window where you can open this in a new window or tab:
 
-[Lab03 Files](https://github.com/ucsb-cs24-kozerawski-w21/lab02_data)
+[Lab03 Files](https://github.com/ucsb-cs24-kozerawski-w21/lab03_data)
 
 You should see a listing of several C++ files. Please copy those files into your local lab02 Github repo directory.
 
