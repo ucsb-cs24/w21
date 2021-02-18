@@ -14,7 +14,7 @@ By the time you have completed this lab, you should be able to
 * Learn to debug your program using basic gdb commands
 
 
-#Step by Step
+# Step by Step
 
 ## Step 0: Getting Started
 
