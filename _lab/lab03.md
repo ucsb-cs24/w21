@@ -103,6 +103,51 @@ print list[0]@25
 **quit**
 "quit" is used to exit the gdb debugger.
 
+
+## Implementation Details
+* Node<T>* head;
+* Node<T>* tail;
+	* Pointers pointing to the head and the tail of the list. Same as ‘front’ and ‘rear’ in the midterm.
+* List();
+	* Constructor. Initializes ‘head’ and ‘tail’ as NULL.
+* List(List const& o);
+	* Copy constructor. Makes a hard copy of the list ‘o’. You should create a list in ‘this’ of the same size and storing the same data as ‘o’.
+* List& operator=(List const& o);
+	* Overloaded assignment operator. The difference between the copy constructor is that when ‘this’ list is not empty you should clear it first.
+* ~List();
+	* Destructor. Clears the list. There’s a ‘clear()’ method in the following. You can just call it here.
+* bool empty() const;
+	* Checks if ‘this’ list is empty. A non-empty list should have a non-NULL head pointer. And when you maintain the list, an empty list should always have NULL head and tail pointers.
+* size_t size() const;
+	* Counts the size of the list. You should go from the head node to its next one by one. The tail node’s ‘next’ pointer is of course NULL.
+* T& front() const;
+	* Returns the data ‘val’ in the head node.
+* T& back() const;
+	* Returns the data ‘val’ in the tail node.
+* T& at(size_t index) const;
+	* Returns the data ‘val’ in the index-th node. Since there’s no cursor in the list, you should go from the head one by one to the index-th node first.
+* void clear();
+	* Clears the whole list.
+* void insert(size_t index, T const& value);
+	* Inserts a node containing data ‘value’ at the position ‘index’. First go to the position ‘index - 1’, then create a new node by calling the constructor, and link it into the list. Remember to maintain the ‘head’ and ‘tail’ pointers.
+* void pop_front();
+	* Deletes the head node.
+* void push_front(T const& value);
+	* Creates a new head node and stores the data ‘value’.
+* void pop_back();
+	* Deletes the tail node. You have to go to the one before the tail first.
+* void push_back(T const& value);
+	* Creates a new tail node and stores the data ‘value’.
+* void erase(size_t index);
+	* Erases (deletes) the node at the position ‘index’.
+* void erase(size_t first, size_t count);
+	* Erases (deletes) the ‘count’ number of nodes after (including) the node at position ‘first’.
+* friend bool operator==(List<C> const& lhs, List<C> const& rhs);
+	* Judges if two lists ‘lhs’ and ‘rhs’ are identical. Identical means they should have the same length and store the same data.
+* void render(std::ostream& out) const;
+	* This is an associated method which is used to print out a whole list. The overloaded ‘<<’ operator and it have been implemented in the header file. You can use them for debugging.
+
+
 ## Step 3: Test Your Code and Upload to Gradescope
 The Autograder will use some test cases to check if your implementations are correct. In order to verify them, you’ll need to write your own test code, which can be a ‘main’ function to print out the results, before the submission. Then, write a Makefile to link all dependencies to make and run your test. The lab assignment “Lab03” should appear in your Gradescope dashboard in CS 24. If you haven’t submitted anything for this assignment yet, Gradescope will prompt you to upload your files. For this lab, you will only need to upload your modified file (i.e. trie.cpp). If you already submitted something on Gradescope, it will take you to their “Autograder Results” page. There is a “Resubmit” button on the bottom right that will allow you to update the files for your submission. For this lab, if everything is correct, you’ll see a successful submission passing all of the Autograder tests.
 
