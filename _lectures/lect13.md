@@ -11,19 +11,19 @@ Data Structures and Other Objects Using C++ Chapter 13.2
 # Notation:
 
 ## Infix
-* X + Y
-* A * B + C / D
-* A * (B + C / D)
+* Expression: X + Y
+* Expression: A * B + C / D
+* Expression: A * (B + C / D)
 
 ## Prefix ("Polish notation")
-* + X Y
-* + * A B / C D
-* * A + B / C D
+* Expression: + X Y
+* Expression: + * A B / C D
+* Expression: * A + B / C D
 
 ## Postfix ("Reverse Polish notation")
-* X Y +
-* A B * C D / +
-* A B C D / + *
+* Expression: X Y +
+* Expression: A B * C D / +
+* Expression: A B C D / + *
 
 # Divide and conquer
 * Subdivide a larger problem into smaller parts
