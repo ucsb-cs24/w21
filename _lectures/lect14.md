@@ -35,6 +35,8 @@ Data Structures and Other Objects Using C++ Chapter 10
 * The right subtree of a node contains only nodes with keys greater than the node's key
 * No duplicate nodes
 
+Good visualizations can be found [here](https://visualgo.net/bn/bst) and [here](https://www.cs.usfca.edu/~galles/visualization/BST.html)
+
 # Code:
 
 //Makefile
