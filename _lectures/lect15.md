@@ -53,6 +53,27 @@ Then repeat for next level.
 
 Outcome for our example: 5 2 7 1 3 6 8 4 9 10
 
+```
+void BST::levelOrderTraversal(Node* root){
+	queue<Node*> nodes;
+	if(root == NULL){
+		return;	
+	}
+	else{
+		nodes.push(root);	
+	}
+	while(not nodes.empty()){	
+		cout << nodes.front()->key << endl;
+		if(nodes.front()->left){
+			nodes.push(nodes.front()->left);
+		}
+		if(nodes.front()->right){
+			nodes.push(nodes.front()->right);
+		}
+		nodes.pop();
+	}	
+}
+```
 
 ## Depth-first Search
 
@@ -62,11 +83,36 @@ Visit left subtree, then the node, then right subtree
 
 Outcome for our example: 1 2 3 4 5 6 7 8 9 10
 
+```
+void BST::inorderTraversal(Node* node){
+
+	if(node == NULL){
+		return;	
+	}
+	inorderTraversal(node->left);
+	cout << node->key << endl;
+	inorderTraversal(node->right);
+}
+```
+
 ### Pre-order Traversal
 
 Visit the node, then left subtree, then right subtree
 
 Outcome for our example: 5 2 1 3 4 7 6 8 9 10
+
+```
+void BST::preorderTraversal(Node* node){
+
+	if(node == NULL){
+		return;	
+	}
+	cout << node->key << endl;
+	preorderTraversal(node->left);
+	preorderTraversal(node->right);
+	
+}
+```
 
 
 ### Post-order Traversal
@@ -75,6 +121,17 @@ Visit left subtree, then right subtree, then the node
 
 Outcome for our example: 1 4 3 2 6 10 9 8 7 5
       
+```
+void BST::postorderTraversal(Node* node){
+
+	if(node == NULL){
+		return;	
+	}
+	postorderTraversal(node->left);
+	postorderTraversal(node->right);
+	cout << node->key << endl;
+}
+```
 
 # Tree inversion
 
