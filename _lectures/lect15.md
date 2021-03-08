@@ -1,6 +1,6 @@
 ---
 num: "lect15"
-lecture_date: 2021-05-01
+lecture_date: 2021-03-03
 desc: "Binary Search Trees continued"
 ready: true
 annotatedready: false
